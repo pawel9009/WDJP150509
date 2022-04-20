@@ -1,0 +1,17 @@
+from cal import Kalkulator, pi, kilo, e
+
+liczba = Kalkulator()
+print(liczba.wynik)
+liczba.dodawanie(3)
+print(liczba.wynik)
+liczba.mnozenie(3)
+print(liczba.wynik)
+liczba.dzielenie(4)
+print(liczba.wynik)
+liczba.dodawanie(pi)
+print(liczba.wynik)
+liczba.mnozenie(kilo)
+print(liczba.wynik)
+liczba.dzielenie(e)
+print(liczba.wynik)
+print('-----------------------------------------')
